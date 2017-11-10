@@ -43,7 +43,13 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  /usr/local/{bin,sbin}
+  /usr/local/{bin,sbin,include,lib}
+  /Users/$USER/Qt/Qt5.6.2/5.6/clang_64/bin
+  /usr/local/opt/ccache/libexec
+  /usr/local/opt/llvm/bin
+  /opt/subversion/bin
+  $HOME/Qt/QtIFW2.0.5/bin
+  /Library/Frameworks/Python.framework/Versions/3.6/bin
   $path
 )
 
